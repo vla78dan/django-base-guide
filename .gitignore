@@ -1,0 +1,26 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Кэш и скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# База данных SQLite и логи Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+
+# Переменные окружения и секреты
+.env
+.env.local
+
+# Медиа-файлы пользователей и собранная статика
+media/
+staticfiles/
+
+# Настройки редакторов кода (VS Code, PyCharm)
+.vscode/
+.idea/
